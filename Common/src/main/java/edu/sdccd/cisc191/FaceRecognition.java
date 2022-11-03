@@ -23,7 +23,9 @@ public class FaceRecognition extends Main implements Database {
             scanFaceData.add(350);
             scanFaceData.add(540);
 
-            //return new ArrayList[] {0};
+            /**
+             * Todo remove me
+             */
 
             /**
              * Program will do a for-loop through doing Array: will check and scan results for similar
