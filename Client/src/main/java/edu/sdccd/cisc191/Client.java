@@ -4,31 +4,33 @@ import sun.applet.Main;
 
 import java.net.*;
 import java.io.*;
+import java.io.ObjectInputStream;
+import javafx.application.Application;
+
+//  java.util.concurrent.Calllable --> import from Lambda Expressions; possible might be able to add it
+
 
 /**
- * This program opens a connection to a computer specified
- * as the first command-line argument.  If no command-line
- * argument is given, it prompts the user for a computer
- * to connect to.  The connection is made to
- * the port specified by LISTENING_PORT.  The program reads one
- * line of text from the connection and then closes the
- * connection.  It displays the text that it read on
- * standard output.  This program is meant to be used with
- * the server program, DateServer, which sends the current
- * date and time on the computer where the server is running.
+ * Client as JavaFX app, allow users to register, login, and logout
+ * When registering, take a photo and send to server
+ * Process face data and store in a database
+ * When logging in, take a photo and send to server to compare with face data registered with.
+ * The client can store the logged in user to local files
+ * Use a 3rd party library like OpenCV on the server to convert images to face data
+ * Using a web app that allows the user to use face tracking/ detection
  */
 // register user
 public class Client {
     private Socket clientSocket;
     private PrintWriter out;
     private BufferedReader in;
+    // import javafx
+    // Repositories
 
     //  private FaceRecognition faceRecognition;
 
-    public void startConnection(String ip, int port) throws IOException {
-        clientSocket = new Socket(ip, port);
-        out = new PrintWriter(clientSocket.getOutputStream(), true);
-        in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+    // Checkbox to detect and track face
+    public void startConnection(InputStreamReader(clientSocket.getInputStream()));
     }
 
 //    public CustomerResponse sendRequest() throws Exception {
@@ -36,11 +38,13 @@ public class Client {
 //        return CustomerResponse.fromJSON(in.readLine());
 //    }
 
+
     public void stopConnection() throws IOException {
         in.close();
         out.close();
         clientSocket.close();
     }
+
     public static void main(String[] args) {
         Client client = new Client();
         try {
@@ -49,6 +53,7 @@ public class Client {
             client.stopConnection();
         } catch(Exception e) {
             e.printStackTrace();
+
         }
     }
 } //end class Client

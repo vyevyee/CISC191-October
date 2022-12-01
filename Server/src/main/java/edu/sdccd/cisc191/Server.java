@@ -1,5 +1,7 @@
 package edu.sdccd.cisc191;
 
+import org.opencv.core.Mat;
+
 import java.net.*;
 import java.io.*;
 import java.sql.DatabaseMetaData;
@@ -26,6 +28,7 @@ public class Server {
         out = new PrintWriter(clientSocket.getOutputStream(), true);
         in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
     }
+    //Get username and password for usage for Facial Recognition
 
     public void stop() throws IOException {
         in.close();
@@ -35,6 +38,7 @@ public class Server {
     }
 
     public static void main(String[] args) {
+
         Server server = new Server();
         try {
             server.start(4444);
