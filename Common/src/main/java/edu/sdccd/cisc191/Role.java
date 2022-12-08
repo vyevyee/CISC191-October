@@ -1,9 +1,11 @@
 package edu.sdccd.cisc191;
 import java.util.Set;
+//  Issue on how to import SpringFrameWork
 
-public class Role extends User {
+
+public class Role extends Account {
     private String name;
-    private Set<User> users;
+    private Set<Account> users;
 
     public String getName() {
         return name;
@@ -11,10 +13,10 @@ public class Role extends User {
     public void setName(String name) {
         this.name = name;
     }
-    public Set<User> getUsers() {
+    public Set<Account> getUsers() {
         return users;
     }
-    public void setUsers(Set<User> users) {
+    public void setUsers(Set<Account> users) {
         this.users = users;
     }
 }

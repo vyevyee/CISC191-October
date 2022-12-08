@@ -14,7 +14,14 @@ import java.util.Set;
  *  Meta Space (in place of PermGen) grows automatically by default
  */
 
-public class User {
+/**
+ * CrudRepository = Spring data interface
+ * Propertties: Save, findById, delete, count etc
+ */
+
+@SpringBootApplication
+
+public class Account {
 
     private Long id;
     private String userName;
@@ -57,4 +64,4 @@ public class User {
     }
 
 }
-
+//  Application properties: Will start to update once the beginning steps of the code is finished
