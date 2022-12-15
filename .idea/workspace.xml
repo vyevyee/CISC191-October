@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="042dc683-0ad6-4ad7-993c-4b8cbbf2e69c" name="Changes" comment="Push Test">
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/CrudRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/IndividualAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/SpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/src/main/resources/Applications.Properties.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Common/src/main/java/ApplicationsProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +54,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_directory_selection": "/Users/vye/Desktop/CISC191-October/Common/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +63,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "spring.configuration.checksum": "d13bc5b68b2bd9e18f29777db17cc563"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -171,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.Main.testFaceRecognition" />
         <item itemvalue="JUnit.Main" />
         <item itemvalue="JUnit.ClientTest" />
         <item itemvalue="Application.FaceRecognition" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +183,8 @@
       <workItem from="1668394845525" duration="1869000" />
       <workItem from="1668728722520" duration="3745000" />
       <workItem from="1669620779285" duration="18824000" />
-      <workItem from="1669958999750" duration="18341000" />
+      <workItem from="1669958999750" duration="19190000" />
+      <workItem from="1671065017281" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit not working">
       <created>1667499859332</created>
@@ -214,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669939128234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Push Test">
+      <created>1670498150518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670498150519</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
