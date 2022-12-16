@@ -1,5 +1,6 @@
 package edu.sdccd.cisc191;
 import java.util.Set;
+import org.springframework.boot.SpringApplication;
 
 /**
  * User class will have access to registration

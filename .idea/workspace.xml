@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="042dc683-0ad6-4ad7-993c-4b8cbbf2e69c" name="Changes" comment="Push Test">
-      <change afterPath="$PROJECT_DIR$/Common/src/main/java/ApplicationsProperties.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common/src/main/java/edu/sdccd/cisc191/CrudRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +26,8 @@
         <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -184,7 +185,7 @@
       <workItem from="1668728722520" duration="3745000" />
       <workItem from="1669620779285" duration="18824000" />
       <workItem from="1669958999750" duration="19190000" />
-      <workItem from="1671065017281" duration="560000" />
+      <workItem from="1671065017281" duration="2289000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit not working">
       <created>1667499859332</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670498150519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Push Test">
+      <created>1671066148267</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671066148267</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
